@@ -55,7 +55,7 @@ data = dde.data.PDE(
     pde,
     bcs=[bc, observe_u],
     num_domain=50,
-    num_boundary=8,
+    num_boundary=2,
     train_distribution="uniform",
     num_test=1000,
 )
